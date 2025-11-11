@@ -6,6 +6,9 @@ node_modules/
 yarn.lock
 pnpm-lock.yaml
 
+# Issues (planejamento interno)
+Issues/
+
 # Production
 /dist
 /build
