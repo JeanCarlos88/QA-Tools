@@ -1,38 +1,49 @@
+# Nome do workflow exibido no GitHub Actions
 name: Deploy to GitHub Pages
 
+# Dispara o workflow em dois casos:
+# 1. Quando há push na branch main
+# 2. Quando acionado manualmente (workflow_dispatch)
 on:
   push:
     branches:
-      - main
-  workflow_dispatch:
+      - main  # Só executa para a branch main
+  workflow_dispatch:  # Permite execução manual
 
+# Permissões necessárias para o workflow
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: write  # Permite escrever no repositório (push na gh-pages)
+  pages: write     # Permite publicar no GitHub Pages
+  id-token: write  # Permite gerar tokens de identidade (usado por algumas actions)
 
+# Definição dos jobs (tarefas)
 jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
+  build-and-deploy:  # Nome do job principal
+    runs-on: ubuntu-latest  # Usa máquina virtual Ubuntu
     steps:
+      # Passo 1: Faz checkout do código
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Passo 2: Configura Node.js versão 18 e cache do npm
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
-          cache: 'npm'
+          node-version: '18'  # Versão do Node.js
+          cache: 'npm'        # Usa cache para acelerar installs
 
+      # Passo 3: Instala dependências do projeto
       - name: Install dependencies
         run: npm ci
 
+      # Passo 4: Executa o build de produção
       - name: Build
         run: npm run build
 
+      # Passo 5: Faz deploy dos arquivos gerados para a branch gh-pages
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v3  # Action que faz deploy automático
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: gh-pages
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Token de autenticação
+          publish_dir: ./dist                        # Pasta de build a ser publicada
+          publish_branch: gh-pages                   # Branch de destino do GitHub Pages
