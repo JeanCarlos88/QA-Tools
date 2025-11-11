@@ -23,6 +23,7 @@
     "regex-tester",
     "test-checklist"
   ],
+  "type": "module",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
