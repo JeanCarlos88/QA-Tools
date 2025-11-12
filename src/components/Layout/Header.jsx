@@ -12,7 +12,7 @@ const Header = () => {
           </Link>
           <nav className="hidden md:flex space-x-6">
             <a 
-              href="https://github.com/yourusername/QA-Tools" 
+              href="https://github.com/JeanCarlos88/QA-Tools" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-primary-400 transition-colors"
@@ -20,7 +20,7 @@ const Header = () => {
               GitHub
             </a>
             <a 
-              href="https://github.com/yourusername/QA-Tools/issues" 
+              href="https://github.com/JeanCarlos88/QA-Tools/issues" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-primary-400 transition-colors"
