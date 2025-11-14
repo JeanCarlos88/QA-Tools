@@ -9,6 +9,14 @@ const Home = () => {
   return (
     <div className="space-y-8">
       <div className="text-center">
+        <div className="flex justify-center mb-6">
+          <img
+            src="/QA-Tools/logo-qa-tools.svg"
+            alt="Logo QA-Tools"
+            className="h-36 w-36 max-w-full rounded-2xl border border-dark-700 bg-dark-900 shadow-xl shadow-primary-900/40 object-contain"
+            loading="lazy"
+          />
+        </div>
         <h1 className="text-4xl font-bold bg-gradient-to-r from-primary-400 to-primary-600 bg-clip-text text-transparent mb-4">
           Bem-vindo ao QA Tools
         </h1>
