@@ -376,7 +376,7 @@ npm run build
 4. **Deploy no GitHub Pages:**
 - Faça push para o repositório
 - GitHub Actions fará o deploy automaticamente
-- Acesse em: https://yourusername.github.io/QA-Tools
+- Acesse em: https://JeanCarlos88.github.io/QA-Tools
 
 ### Para Personalizar
 

@@ -27,6 +27,7 @@ base: '/QA-Tools/'  // Nome do repositório
 ### 4. GitHub Actions (`.github/workflows/deploy.yml`)
 - Build automático ao fazer push na branch `main`
 - Deploy automático para GitHub Pages
+- Workflow simplificado e comentado para facilitar manutenção
 - Usa Node.js 18 e npm ci para builds consistentes
 
 ## 📋 Checklist Pré-Deploy
@@ -35,13 +36,13 @@ Antes de fazer o deploy, certifique-se de:
 
 - [ ] **Atualizar URLs no `package.json`**
   ```json
-  "homepage": "https://SEU_USUARIO.github.io/QA-Tools"
+  "homepage": "https://JeanCarlos88.github.io/QA-Tools"
   ```
 
 - [ ] **Atualizar repository no `package.json`**
   ```json
   "repository": {
-    "url": "https://github.com/SEU_USUARIO/QA-Tools.git"
+    "url": "https://github.com/JeanCarlos88/QA-Tools.git"
   }
   ```
 

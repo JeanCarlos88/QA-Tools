@@ -172,3 +172,16 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 ---
 
 **Nota:** As datas seguem o formato ISO 8601 (YYYY-MM-DD)
+
+---
+
+## [1.0.1] - 2025-11-14
+
+### Adicionado
+
+- 🖼️ Logo QA-Tools integrado no Header, Footer e Home
+
+### Modificado
+
+- 🔁 Workflow de deploy simplificado e comentado (GitHub Actions)
+- 📚 Documentação atualizada (links do repositório, exemplos do Validador de API, guia do GitHub Pages)

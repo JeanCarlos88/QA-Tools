@@ -328,6 +328,6 @@ Você criou um projeto completo, bem documentado e pronto para uso!
 
 ---
 
-*Última atualização: 2025-11-11*
+*Última atualização: 2025-11-14*
 
-**Dúvidas?** Consulte a [documentação](README.md) ou abra uma [issue](https://github.com/SEU-USUARIO/QA-Tools/issues).
+**Dúvidas?** Consulte a [documentação](README.md) ou abra uma [issue](https://github.com/JeanCarlos88/QA-Tools/issues).
