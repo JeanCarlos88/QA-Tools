@@ -5,6 +5,37 @@ Todas as mudanças notáveis neste projeto serão documentadas neste arquivo.
 O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/),
 e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 
+## [Unreleased]
+
+### Em Planejamento
+- [ ] Alternância entre modo claro e escuro (toggle)
+- [ ] Suporte para múltiplos idiomas (i18n)
+- [ ] Exportação de dados em múltiplos formatos
+- [ ] Importação de checklists
+- [ ] Histórico de requisições API
+- [ ] Gerador de massa de dados (bulk)
+- [ ] Integração com Postman Collections
+- [ ] Testes automatizados
+- [ ] Documentação de APIs (Swagger/OpenAPI)
+- [ ] Calculadora de hash (MD5, SHA256)
+- [ ] Comparador de JSON/XML
+- [ ] Validador de schemas (JSON Schema)
+- [ ] CORS Proxy integrado
+
+---
+
+## [1.0.1] - 2025-11-14
+
+### Adicionado
+
+- 🖼️ Logo QA-Tools integrado no Header, Footer e Home (acessível e responsivo)
+
+### Modificado
+
+- 🔁 Workflow de deploy simplificado e comentado (GitHub Actions)
+- 📚 Documentação atualizada (links do repositório, exemplos do Validador de API, guia do GitHub Pages, Quick Start, Testing, Architecture, Contributing, Summary, Installation, Pages Checklist, Roadmap, Next Steps)
+- 🧹 Ajustes de formatação Markdown (cercas de código com linguagem, espaçamentos, URLs)
+
 ## [1.0.0] - 2025-11-11
 
 ### Adicionado
@@ -141,25 +172,6 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 
 ---
 
-## [Unreleased]
-
-### Em Planejamento
-- [ ] Alternância entre modo claro e escuro (toggle)
-- [ ] Suporte para múltiplos idiomas (i18n)
-- [ ] Exportação de dados em múltiplos formatos
-- [ ] Importação de checklists
-- [ ] Histórico de requisições API
-- [ ] Gerador de massa de dados (bulk)
-- [ ] Integração com Postman Collections
-- [ ] Testes automatizados
-- [ ] Documentação de APIs (Swagger/OpenAPI)
-- [ ] Calculadora de hash (MD5, SHA256)
-- [ ] Comparador de JSON/XML
-- [ ] Validador de schemas (JSON Schema)
-- [ ] CORS Proxy integrado
-
----
-
 ## Tipos de Mudanças
 
 - **Adicionado** para novas funcionalidades
@@ -172,16 +184,3 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 ---
 
 **Nota:** As datas seguem o formato ISO 8601 (YYYY-MM-DD)
-
----
-
-## [1.0.1] - 2025-11-14
-
-### Adicionado
-
-- 🖼️ Logo QA-Tools integrado no Header, Footer e Home
-
-### Modificado
-
-- 🔁 Workflow de deploy simplificado e comentado (GitHub Actions)
-- 📚 Documentação atualizada (links do repositório, exemplos do Validador de API, guia do GitHub Pages)
