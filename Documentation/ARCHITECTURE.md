@@ -52,6 +52,7 @@ QA-Tools/
 │   └── main.jsx            # Ponto de entrada da aplicação
 │
 ├── public/                  # Arquivos públicos estáticos
+│   └── logo-qa-tools.svg    # Logo oficial do projeto
 │
 ├── .eslintrc.cjs           # Configuração do ESLint
 ├── .gitignore              # Arquivos ignorados pelo Git
@@ -128,6 +129,11 @@ User Input → Page Component → Service → Utils → Result
 - Utility-first CSS framework
 - Classes predefinidas em `src/index.css`
 - Customização em `tailwind.config.js`
+
+#### Dark Mode
+
+- Modo escuro via classe `dark` aplicada no elemento raiz
+- Utilize variantes `dark:` para estilos alternativos
 
 ### Classes Customizadas
 

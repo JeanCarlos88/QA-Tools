@@ -6,7 +6,7 @@ Obrigado pelo interesse em contribuir! 🎉
 
 ### Reportando Bugs
 
-1. Verifique se o bug já foi reportado nas [issues](https://github.com/yourusername/QA-Tools/issues)
+1. Verifique se o bug já foi reportado nas [issues](https://github.com/JeanCarlos88/QA-Tools/issues)
 2. Se não encontrar, crie uma nova issue incluindo:
    - Descrição clara do problema
    - Passos para reproduzir
@@ -25,7 +25,7 @@ Obrigado pelo interesse em contribuir! 🎉
 ### Desenvolvendo
 
 1. Fork o repositório
-2. Clone seu fork: `git clone https://github.com/seu-usuario/QA-Tools.git`
+2. Clone seu fork: `git clone https://github.com/JeanCarlos88/QA-Tools.git`
 3. Crie uma branch: `git checkout -b feature/minha-feature`
 4. Instale dependências: `npm install`
 5. Faça suas alterações
@@ -33,6 +33,12 @@ Obrigado pelo interesse em contribuir! 🎉
 7. Commit com mensagens claras: `git commit -m "feat: adiciona nova funcionalidade"`
 8. Push: `git push origin feature/minha-feature`
 9. Abra um Pull Request
+
+### Branches
+
+- Use o padrão `feature/nome-da-feature` ou `fix/descricao-curta`
+- Referencie issues nos commits/PRs quando aplicável
+- Feche issues automaticamente usando palavras-chave no PR (ex: `Closes #1`)
 
 ## Padrões de Código
 

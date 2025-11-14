@@ -80,10 +80,15 @@ Este guia fornece instruções para testar o QA Tools localmente e garantir qual
 - [ ] Status code exibido corretamente
 - [ ] Headers de resposta exibidos
 - [ ] Body de resposta exibido e formatado
+- [ ] Botão "Carregar Exemplo" preenche URL e método corretamente
+- [ ] Content-Type só é enviado para métodos com body (POST/PUT/PATCH)
+- [ ] Tipo de resposta é detectado e exibido corretamente (JSON, XML, HTML, texto)
+
 
 #### CORS
 - [ ] API com CORS habilitado funciona
 - [ ] API sem CORS mostra erro apropriado
+- [ ] Mensagens explicam a causa do CORS e alternativas de teste
 
 ---
 

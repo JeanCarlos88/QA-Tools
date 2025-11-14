@@ -43,6 +43,8 @@ Headers: {}
 - Body: JSON com dados do usuário
 - Headers: Content-Type: application/json
 
+💡 Dica: Use o botão "Carregar Exemplo" para preencher automaticamente uma URL pública funcional (JSONPlaceholder).
+
 ### Caso de Uso 2: Testar endpoint POST
 
 **Cenário:** Criar um novo recurso
@@ -66,6 +68,8 @@ Body:
 - Verificar status 201 Created
 - Confirmar que o body contém id gerado
 - Validar tempo de resposta < 2s
+- Content-Type é adicionado automaticamente apenas quando necessário (POST/PUT/PATCH)
+- Tipo de resposta é detectado automaticamente (JSON, XML, HTML, texto)
 
 ## 📄 Conversor de Arquivos
 
@@ -272,6 +276,7 @@ Telefones para contato:
 **Solução:**
 - API precisa ter CORS habilitado
 - Use proxy CORS ou teste APIs públicas primeiro
+ - Mensagens de erro explicam CORS e como proceder
 
 ### Problema: Conversão falha
 
@@ -296,4 +301,4 @@ Telefones para contato:
 - [Arquitetura do projeto](ARCHITECTURE.md)
 - [Como contribuir](CONTRIBUTING.md)
 
-**Precisa de ajuda?** Abra uma [issue no GitHub](https://github.com/yourusername/QA-Tools/issues)
+**Precisa de ajuda?** Abra uma [issue no GitHub](https://github.com/JeanCarlos88/QA-Tools/issues)

@@ -37,32 +37,37 @@ Bem-vindo à documentação completa do projeto QA Tools!
 ## 🎯 Documentação por Objetivo
 
 ### Quero começar a usar o projeto
+
 1. [Quick Start](QUICKSTART.md) - Comece aqui!
 2. [Exemplos de Uso](EXAMPLES.md) - Veja como usar cada ferramenta
 
 ### Quero entender o projeto
+
 1. [Ideia Original](IDEIA_DESENVOLVIMENTO.md) - Por que o projeto existe
 2. [Arquitetura](ARCHITECTURE.md) - Como está estruturado
 3. [Resumo](SUMMARY.md) - Visão completa do que foi implementado
 
 ### Quero contribuir
+
 1. [Como Contribuir](CONTRIBUTING.md) - Primeiros passos
 2. [Guia de Testes](TESTING.md) - Como testar suas mudanças
 3. [Roadmap](ROADMAP.md) - Veja o que está planejado
 
 ### Quero fazer deploy
+
 1. [Instalação](INSTALLATION.md) - Configure o ambiente
 2. [Próximos Passos](NEXT_STEPS.md) - Deploy no GitHub Pages
 
 ### Quero reportar um problema
+
 1. [Security](SECURITY.md) - Para vulnerabilidades de segurança
-2. [GitHub Issues](https://github.com/yourusername/QA-Tools/issues) - Para bugs e sugestões
+2. [GitHub Issues](https://github.com/JeanCarlos88/QA-Tools/issues) - Para bugs e sugestões
 
 ---
 
 ## 📝 Estrutura da Documentação
 
-```
+```text
 Documentation/
 ├── README.md                    # Este arquivo - Índice da documentação
 ├── QUICKSTART.md               # Início rápido (3 passos)
@@ -107,12 +112,12 @@ Documentation/
 
 ## 📞 Precisa de Ajuda?
 
-- 💬 [GitHub Discussions](https://github.com/yourusername/QA-Tools/discussions)
-- 🐛 [GitHub Issues](https://github.com/yourusername/QA-Tools/issues)
-- 📧 Email: your.email@example.com
+- 💬 [GitHub Discussions](https://github.com/JeanCarlos88/QA-Tools/discussions)
+- 🐛 [GitHub Issues](https://github.com/JeanCarlos88/QA-Tools/issues)
+- 🔒 [Security Advisories](https://github.com/JeanCarlos88/QA-Tools/security/advisories)
 
 ---
 
 **Voltar para:** [README Principal](../README.md)
 
-*Mantido pela comunidade QA Tools*
+Mantido pela comunidade QA Tools
