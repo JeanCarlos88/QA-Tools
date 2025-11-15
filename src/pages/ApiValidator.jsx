@@ -158,7 +158,7 @@ const ApiValidator = () => {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-3xl font-bold text-gray-100 mb-2">
+        <h1 className="text-3xl font-bold text-gray-700 dark:text-gray-100 mb-2">
           🔌 Validador de API
         </h1>
         <p className="text-gray-400">
@@ -174,7 +174,7 @@ const ApiValidator = () => {
 
       <Card>
         <div className="flex justify-between items-center mb-4">
-          <h3 className="text-lg font-semibold text-gray-100">Configurar Requisição</h3>
+          <h3 className="text-lg font-semibold text-gray-700 dark:text-gray-100">Configurar Requisição</h3>
           <Button variant="secondary" onClick={loadExample} type="button" className="text-sm">
             📝 Carregar Exemplo
           </Button>
@@ -296,7 +296,7 @@ const ApiValidator = () => {
 
       <Card className="bg-blue-950/30 border-blue-600/50">
         <h3 className="font-semibold text-blue-400 mb-2">ℹ️ Informações</h3>
-        <ul className="text-sm text-blue-200/80 space-y-1">
+        <ul className="text-sm text-blue-200/80 text-blue-400  space-y-1">
           <li>• Limite de 10 requisições por minuto para prevenir abuso</li>
           <li>• APIs com CORS habilitado funcionam melhor</li>
           <li>• Nenhum dado é armazenado ou enviado para servidores externos</li>
@@ -304,11 +304,11 @@ const ApiValidator = () => {
         </ul>
       </Card>
 
-      <Card className="bg-green-950/30 border-green-600/50">
-        <h3 className="font-semibold text-green-400 mb-2">🌐 APIs Públicas para Teste</h3>
-        <div className="text-sm text-green-200/80 space-y-2">
+      <Card className="bg-green-950/30 border-green-600/50 ">
+        <h3 className="font-semibold text-green-400  mb-2">🌐 APIs Públicas para Teste</h3>
+        <div className="text-sm dark:text-green-200/80  text-green-400 space-y-2">
           <p><strong>JSONPlaceholder</strong> (Fake REST API):</p>
-          <ul className="ml-4 space-y-1 font-mono text-xs">
+          <ul className="ml-4 space-y-1 font-mono text-xs ">
             <li>GET: https://jsonplaceholder.typicode.com/posts</li>
             <li>GET: https://jsonplaceholder.typicode.com/users/1</li>
             <li>POST: https://jsonplaceholder.typicode.com/posts</li>

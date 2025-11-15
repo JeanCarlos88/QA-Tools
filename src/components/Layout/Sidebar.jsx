@@ -1,7 +1,8 @@
 import { Link, useLocation } from 'react-router-dom';
 import { MENU_ITEMS } from '../../constants';
+import ThemeToggle from './ThemeToggle';
 
-const Sidebar = ({ isOpen, onClose }) => {
+const Sidebar = ({ isOpen, onClose, theme, toggleTheme }) => {
   const location = useLocation();
 
   const isActive = (path) => {
@@ -21,14 +22,20 @@ const Sidebar = ({ isOpen, onClose }) => {
       {/* Sidebar */}
       <aside 
         className={`
-          fixed md:sticky top-0 left-0 z-50 h-screen w-64 bg-dark-900 border-r border-dark-800 shadow-xl
-          transform transition-transform duration-300 ease-in-out
-          ${isOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}
-        `}
+  fixed md:sticky top-0 left-0 z-50 h-screen w-64 
+  transform transition-transform duration-300 ease-in-out
+  ${isOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}
+  
+
+  bg-white border-r border-gray-300 text-gray-900 shadow-lg 
+  
+
+  dark:bg-dark-900 dark:border-dark-800 dark:text-gray-100 
+`}
       >
         <div className="flex flex-col h-full">
           <div className="flex items-center justify-between p-4 border-b border-dark-800 md:hidden">
-            <span className="text-lg font-semibold text-gray-200">Menu</span>
+            <span className="text-lg font-semibold text-gray-700 dark:text-gray-100">Menu</span>
             <button 
               onClick={onClose}
               className="text-gray-400 hover:text-gray-200 text-2xl"
@@ -46,12 +53,15 @@ const Sidebar = ({ isOpen, onClose }) => {
                     to={item.path}
                     onClick={() => onClose()}
                     className={`
-                      flex items-center space-x-3 px-4 py-3 rounded-lg transition-all
-                      ${isActive(item.path)
-                        ? 'bg-primary-600/20 text-primary-400 font-semibold border border-primary-600/30 shadow-lg shadow-primary-600/10'
-                        : 'text-gray-300 hover:bg-dark-800 hover:text-primary-400'
-                      }
-                    `}
+                    flex items-center space-x-3 px-4 py-3 rounded-lg transition-all
+                    ${isActive('alguma-path')
+                      ? 'bg-primary-600/20 text-primary-400 font-semibold border border-primary-600/30 shadow-lg'
+                      //  LIGHT MODE PADRÃO PARA LINKS
+                      : 'text-gray-700 hover:bg-gray-200 hover:text-primary-600' 
+                    }
+                    /* DARK MODE (Override): Inverte a cor do texto para claro */
+                    dark:text-gray-300 dark:hover:bg-dark-800 dark:hover:text-primary-400
+                  `}
                   >
                     <span className="text-2xl">{item.icon}</span>
                     <div>
@@ -63,7 +73,7 @@ const Sidebar = ({ isOpen, onClose }) => {
               ))}
             </ul>
           </nav>
-
+              
           <div className="p-4 border-t border-dark-800">
             <div className="text-xs text-gray-500 text-center">
               💡 Todas as ferramentas funcionam localmente no seu navegador

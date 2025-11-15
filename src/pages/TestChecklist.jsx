@@ -158,7 +158,7 @@ const TestChecklist = () => {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-3xl font-bold text-gray-100 mb-2">
+        <h1 className="text-3xl font-bold text-gray-700 dark:text-gray-100 mb-2">
           ✅ Checklist de Testes
         </h1>
         <p className="text-gray-400">
@@ -348,7 +348,7 @@ const TestChecklist = () => {
           ) : (
             <Card className="text-center py-12">
               <div className="text-6xl mb-4">📋</div>
-              <h3 className="text-xl font-semibold text-gray-100 mb-2">Nenhum checklist selecionado</h3>
+              <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-100 mb-2">Nenhum checklist selecionado</h3>
               <p className="text-gray-400 mb-6">
                 Crie ou selecione um checklist para começar
               </p>
@@ -362,7 +362,7 @@ const TestChecklist = () => {
 
       <Card className="bg-blue-950/30 border-blue-600/50">
         <h3 className="font-semibold text-blue-400 mb-2">💡 Dicas</h3>
-        <ul className="text-sm text-blue-200/80 space-y-1">
+        <ul className="text-sm text-blue-200/80 text-blue-400  space-y-1">
           <li>• Os checklists são salvos automaticamente no seu navegador</li>
           <li>• Clique em um item para marcá-lo como completo</li>
           <li>• Use o botão "Exportar" para fazer backup dos seus checklists</li>
