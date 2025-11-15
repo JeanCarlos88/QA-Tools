@@ -115,7 +115,7 @@ const RegexTester = () => {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-3xl font-bold text-gray-100 mb-2">
+        <h1 className="text-3xl font-bold text-gray-700 dark:text-gray-100 mb-2">
           🔍 Testador de Expressões Regulares
         </h1>
         <p className="text-gray-400">
@@ -147,7 +147,7 @@ const RegexTester = () => {
                   type="checkbox"
                   checked={flags.includes(flag.key)}
                   onChange={() => toggleFlag(flag.key)}
-                  className="w-4 h-4 text-primary-600 rounded focus:ring-primary-500"
+                  className="w-4 h-4 text-primary-600 rounded  focus:ring-primary-500"
                 />
                 <span className="text-sm">
                   <strong>{flag.label}</strong> ({flag.key}) - {flag.desc}
@@ -238,7 +238,7 @@ const RegexTester = () => {
 
       <Card className="bg-blue-950/30 border-blue-600/50">
         <h3 className="font-semibold text-blue-400 mb-2">📚 Referência Rápida</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-blue-200/80">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-blue-200/80 text-blue-400 ">
           <div>
             <strong>Caracteres Especiais:</strong>
             <ul className="mt-1 space-y-1 font-mono">
