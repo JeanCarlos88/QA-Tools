@@ -16,7 +16,11 @@ Vulnerabilidades de segurança não devem ser reportadas publicamente para evita
 
 ### 2. Entre em Contato Diretamente
 
-Envie um e-mail para: **your.email@example.com**
+Recomendamos abrir um aviso privado via **GitHub Security Advisories**:
+
+- Link: https://github.com/JeanCarlos88/QA-Tools/security/advisories
+
+Opcionalmente, você pode enviar um e-mail (se preferir): `seu.email@dominio.com`.
 
 Inclua:
 - Descrição detalhada da vulnerabilidade

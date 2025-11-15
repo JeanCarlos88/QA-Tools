@@ -66,7 +66,7 @@ git init
 git add .
 git commit -m "feat: initial commit"
 git branch -M main
-git remote add origin https://github.com/seu-usuario/QA-Tools.git
+git remote add origin https://github.com/JeanCarlos88/QA-Tools.git
 git push -u origin main
 ```
 
@@ -142,4 +142,4 @@ npm run build
 
 **Pronto para começar! 🎉**
 
-Se tiver dúvidas, consulte a [documentação completa](README.md) ou abra uma [issue](https://github.com/yourusername/QA-Tools/issues).
+Se tiver dúvidas, consulte a [documentação completa](README.md) ou abra uma [issue](https://github.com/JeanCarlos88/QA-Tools/issues).

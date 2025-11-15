@@ -18,7 +18,7 @@ Todas as configurações necessárias para o GitHub Pages foram aplicadas e test
 - ✅ React Router configurado com `basename="/QA-Tools"`
 
 **Como funciona:**
-1. Usuário acessa: `https://usuario.github.io/QA-Tools/data-generator`
+1. Usuário acessa: `https://JeanCarlos88.github.io/QA-Tools/data-generator`
 2. GitHub Pages não encontra o arquivo e retorna `404.html`
 3. Script no `404.html` redireciona para `/?/data-generator`
 4. Script no `index.html` converte de volta para `/data-generator`
@@ -144,7 +144,7 @@ npm run preview
 
 | Aspecto | Dev (npm run dev) | Production (GitHub Pages) |
 |---------|-------------------|---------------------------|
-| URL | `http://localhost:5173/QA-Tools/` | `https://usuario.github.io/QA-Tools/` |
+| URL | `http://localhost:5173/QA-Tools/` | `https://JeanCarlos88.github.io/QA-Tools/` |
 | Base Path | `/QA-Tools/` ✅ | `/QA-Tools/` ✅ |
 | Rotas SPA | React Router ✅ | 404.html + Script ✅ |
 | Assets | Hot reload ✅ | Build otimizado ✅ |
@@ -158,9 +158,9 @@ npm run preview
 
 **`package.json`:**
 ```json
-"homepage": "https://SEU_USUARIO.github.io/QA-Tools",
+"homepage": "https://JeanCarlos88.github.io/QA-Tools",
 "repository": {
-  "url": "https://github.com/SEU_USUARIO/QA-Tools.git"
+  "url": "https://github.com/JeanCarlos88/QA-Tools.git"
 }
 ```
 
@@ -192,7 +192,7 @@ git push -u origin main
 
 1. Acesse a aba **Actions**
 2. Aguarde o workflow completar (ícone verde ✓)
-3. Acesse: `https://SEU_USUARIO.github.io/QA-Tools/`
+3. Acesse: `https://JeanCarlos88.github.io/QA-Tools/`
 
 ---
 

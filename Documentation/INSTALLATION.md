@@ -64,6 +64,16 @@ E em `src/main.jsx`:
 <BrowserRouter basename="/seu-repositorio-nome">
 ```
 
+Nota: Neste repositório (`QA-Tools`), já está configurado como:
+
+```javascript
+// vite.config.js
+base: '/QA-Tools/'
+
+// src/main.jsx
+<BrowserRouter basename="/QA-Tools">
+```
+
 ## 🔧 Troubleshooting
 
 ### Erro: "Cannot find module"

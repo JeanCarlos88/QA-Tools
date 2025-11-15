@@ -189,8 +189,8 @@ Para todas as versões, mantemos:
 ## 💬 Discussões
 
 Participe das discussões sobre o roadmap:
-- [GitHub Discussions](https://github.com/yourusername/QA-Tools/discussions)
-- [Issues com label `roadmap`](https://github.com/yourusername/QA-Tools/labels/roadmap)
+- [GitHub Discussions](https://github.com/JeanCarlos88/QA-Tools/discussions)
+- [Issues com label `roadmap`](https://github.com/JeanCarlos88/QA-Tools/labels/roadmap)
 
 ---
 
