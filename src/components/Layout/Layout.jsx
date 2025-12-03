@@ -3,15 +3,21 @@ import Header from './Header';
 import Footer from './Footer';
 import Sidebar from './Sidebar';
 
-const Layout = ({ children }) => {
+const Layout = ({ children, theme, toggleTheme }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const toggleSidebar = () => setSidebarOpen(!sidebarOpen);
   const closeSidebar = () => setSidebarOpen(false);
 
   return (
-    <div className="flex flex-col min-h-screen bg-dark-950">
-      <Header />
+
+    <div className="
+    min-h-screen flex flex-col 
+    bg-white text-gray-900 
+    dark:bg-gray-900 dark:text-gray-100 
+">
+    
+      <Header theme={theme} toggleTheme={toggleTheme}/>
       
       {/* Mobile menu button */}
       <button
@@ -35,7 +41,7 @@ const Layout = ({ children }) => {
       </button>
 
       <div className="flex flex-1">
-        <Sidebar isOpen={sidebarOpen} onClose={closeSidebar} />
+        <Sidebar isOpen={sidebarOpen} onClose={closeSidebar} theme={theme} toggleTheme={toggleTheme}/>
         
         <main className="flex-1 p-4 md:p-8 overflow-x-hidden">
           <div className="max-w-7xl mx-auto">

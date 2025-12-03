@@ -132,7 +132,7 @@ const FileConverter = () => {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-3xl font-bold text-gray-100 mb-2">
+        <h1 className="text-3xl font-bold text-gray-700 dark:text-gray-100 mb-2">
           📄 Conversor de Arquivos
         </h1>
         <p className="text-gray-400">
@@ -235,7 +235,7 @@ const FileConverter = () => {
 
       <Card className="bg-blue-950/30 border-blue-600/50">
         <h3 className="font-semibold text-blue-400 mb-2">💡 Dicas</h3>
-        <ul className="text-sm text-blue-200/80 space-y-1">
+        <ul className="text-sm text-blue-200/80 text-blue-400 space-y-1">
           <li>• Use o botão "Exemplo" para ver formatos válidos</li>
           <li>• Arquivos maiores que 5MB não são suportados</li>
           <li>• CSV deve ter cabeçalhos na primeira linha</li>
