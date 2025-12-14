@@ -12,7 +12,7 @@ const Layout = ({ children, theme, toggleTheme }) => {
 
   return (
     <>
-      <Antigravity />
+      <Antigravity theme={theme} />
       <div className="
         min-h-screen flex flex-col 
         relative
