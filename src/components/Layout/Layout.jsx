@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import Sidebar from './Sidebar';
+import Antigravity from '../Antigravity';
 
 const Layout = ({ children, theme, toggleTheme }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
