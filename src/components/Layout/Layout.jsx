@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import Sidebar from './Sidebar';
-import Antigravity from '../Antigravity';
+import Galaxy from '../Galaxy';
 
 const Layout = ({ children, theme, toggleTheme }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -12,7 +12,17 @@ const Layout = ({ children, theme, toggleTheme }) => {
 
   return (
     <>
-      <Antigravity theme={theme} />
+      <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: 0, pointerEvents: 'none', background: theme === 'dark' ? '#0f172a' : '#f8fafc', transition: 'background 0.5s ease' }}>
+        <Galaxy
+          mouseRepulsion={true}
+          mouseInteraction={true}
+          density={1.5}
+          glowIntensity={theme === 'dark' ? 0.5 : 0.8} // Brighter glow in light mode maybe? or less?
+          saturation={theme === 'dark' ? 0.8 : 0.5}
+          hueShift={theme === 'dark' ? 200 : 250} // Adjust hue for theme
+          transparent={true}
+        />
+      </div>
       <div className="
         min-h-screen flex flex-col 
         relative
